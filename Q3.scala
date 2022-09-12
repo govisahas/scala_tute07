@@ -22,8 +22,8 @@ class Account(acc:Int, balan:Double = 0.0){
 
 object account extends App{
     
-        val acc_1 = new Account(1, 1000.0)
-        val acc_2 = new Account(2, 2000.0)
+        val acc_1 = new Account(1, 1500.0)
+        val acc_2 = new Account(2, 2500.0)
     
         acc_1.transfer(acc_2, 500.0)
         println(acc_1.balance)  
